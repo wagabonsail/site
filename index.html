@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wagabon – Croisières Voilier Semi-Luxe</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="navbar">
+     <div class="logo">Wagabon</div>
+     <nav>
+       <ul class="nav-links">
+         <li><a href="#voyages">Expéditions</a></li>
+         <li><a href="#philosophie">Philosophie</a></li>
+         <li><a href="#equipage">Équipage</a></li>
+         <li><a href="#contact">Contact</a></li>
+       </ul>
+       <div class="burger" id="burger">
+         <span></span><span></span><span></span>
+       </div>
+     </nav>
+  </header>
+
+  <section class="hero">
+    <video autoplay muted loop playsinline>
+      <source src="media/hero.mp4" type="video/mp4">
+    </video>
+    <div class="hero-content">
+      <h1>L’Aventure au-delà de l’Horizon</h1>
+      <a href="#voyages" class="cta">Découvrir nos destinations</a>
+    </div>
+  </section>
+
+  <section id="voyages" class="section voyages">
+    <h2>Nos Destinations</h2>
+    <div class="cards">
+      <article class="card">
+        <img src="media/svalbard.jpg" alt="Svalbard">
+        <h3>Svalbard</h3>
+        <p>Navigation sous le soleil de minuit, fjords glacés et faune polaire.</p>
+      </article>
+      <article class="card">
+        <img src="media/transat.jpg" alt="Transats Atlantiques">
+        <h3>Transats</h3>
+        <p>Traversez l’Atlantique porté·e par les alizés, en équipage réduit.</p>
+      </article>
+      <article class="card">
+        <img src="media/canaries.jpg" alt="Canaries">
+        <h3>Canaries</h3>
+        <p>Exploration des îles volcaniques, mouillages sauvages et randonnées.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="philosophie" class="section philosophie">
+    <h2>Notre Philosophie Greenship</h2>
+    <p>Une croisière responsable : voile prioritaire, gestion des déchets, sensibilisation aux écosystèmes arctiques et atlantiques.</p>
+  </section>
+
+  <section id="equipage" class="section equipage">
+    <h2>L’Équipage</h2>
+    <div class="crew">
+      <div class="member">
+        <img src="media/pablo.jpg" alt="Capitaine Pablo">
+        <h3>Pablo</h3>
+        <p>Capitaine & guide polaire, 45 000 NM parcourus.</p>
+      </div>
+      <div class="member">
+        <img src="media/matteo.jpg" alt="Capitaine Matteo">
+        <h3>Matteo</h3>
+        <p>Ingénieur océanographe & skipper, passionné de montagne.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section contact">
+    <h2>Contact</h2>
+    <form action="https://formspree.io/f/yourFormID" method="POST" class="contact-form">
+      <input type="text" name="name" placeholder="Votre nom" required>
+      <input type="email" name="email" placeholder="Votre email" required>
+      <textarea name="message" rows="5" placeholder="Votre message"></textarea>
+      <button type="submit" class="cta">Envoyer</button>
+    </form>
+  </section>
+
+  <footer>
+    © 2025 Wagabon • hello@wagabon.com
+  </footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,1 @@
+Place your video (hero.mp4) and images (svalbard.jpg, transat.jpg, canaries.jpg, pablo.jpg, matteo.jpg) in this folder.
